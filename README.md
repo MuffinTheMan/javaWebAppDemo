@@ -8,3 +8,11 @@
    - Put Java app in shared folder and build it on the host machine (e.g. `./gradlew build`)
    - Run it in the guest machine `java -jar build/libs/gs-serving-web-content-0.1.0.jar` for example
    - View on host at http://localhost:8080
+
+## Incorporate Foundation
+- Clone Foundation template within `app` directory `git clone https://github.com/zurb/foundation-sites-template foundation`
+- `cd foundation`
+- `npm install`
+- `rm index.html`
+- Update views in `src` to use template
+- TODO: correct location of css/js in views
