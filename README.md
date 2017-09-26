@@ -10,9 +10,4 @@
    - View on host at http://localhost:8080
 
 ## Incorporate Foundation
-- Clone Foundation template within `app` directory `git clone https://github.com/zurb/foundation-sites-template foundation`
-- `cd foundation`
-- `npm install`
-- `rm index.html`
-- Update views in `src` to use template
-- TODO: correct location of css/js in views
+- Link to Foundation files for css/js in views/templates
