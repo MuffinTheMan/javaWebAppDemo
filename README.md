@@ -1,9 +1,7 @@
-## Setup VM with Java and Tomcat
-   - `vagrant plugin install vagrant-vbguest`
-   - `vagrant up`
-   - `vagrant ssh`
-   - `cd /vagrant && sh setup.sh`
-   - View on host at http://localhost:8080
+## Use Gradle
+Gave up for now on Vagrant. Simply use Gradle's use of `gretty` plugin in order to start focusing on actual JSP development.
+
+Simply start up with `./gradlew appRun`.
 
 ## Incorporate Foundation
-- Link to Foundation files for css/js in views/templates
+Link to Foundation files for css/js in views/templates.
